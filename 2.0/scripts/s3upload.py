@@ -8,7 +8,7 @@ from boto.s3.key import Key
 
 access_key = 'PYVPOGO2ODDQU24NXPXZ'
 secret_key = 'pM1QULv2YgAEbvzFr9zHRwdQwpQiT9uJ8hG6JUZK'
-rgw_hostname = 'ceph1'
+rgw_hostname = 'ceph1.lab.com'
 rgw_port = 8080
 local_testfile = '/tmp/testfile'
 bucketname = 'mybucket'
